@@ -1,0 +1,17 @@
+body{
+    background-image: url("../../images/pic03.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    position: absolute;
+    top: 240px;
+    left: 500px;
+    width: 900px;
+}
+
+.left{
+    width: 150px;
+}

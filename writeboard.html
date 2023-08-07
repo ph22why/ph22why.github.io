@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/wirteboard.css" />
+    <title>write</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id="logo"><a href="index.html">Portfolio</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="board.html">Board</a></li>
+                <li><a href="#" class="button primary">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <span style="position: absolute; top: 180px; left: 500px; font-size: 28px;">게시글 작성</span>
+        <tr>
+            <td class="left">제목</td>
+            <td><input type="text" name="subject" style="width: 400px;"></td>
+        </tr>
+        <tr>
+            <td class="left">카테고리</td>
+            <td>
+                <select style="width: 400px;">
+                    <option>----</option>
+                    <option>개발</option>
+                    <option>게임</option>
+                    <option>음악</option>
+                    <option>여행</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="left">내용</td>
+            <td>
+                <textarea name="content" style="width: 800px; height: 300px;"></textarea>  <!--input 박스는 너무 작다. 내용 작성란을 만들때는 textarea엘리먼트 사용-->
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align=right>
+                <a href="./board.html"><input type="button" value="글쓰기"></a>
+                <a href="./board.html"><input type="button" value="목록으로"></a>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+<footer id="footer">
+    <ul class="icons">
+        <li><a href="https://www.instagram.com/phee_why/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="https://github.com/ph22why" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+    </ul>
+    <ul class="copyright">
+        <li>&copy; copyright with PheewhY</li>
+    </ul>
+</footer>
+</html>

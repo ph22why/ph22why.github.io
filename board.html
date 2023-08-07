@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/board.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <h1 id="logo"><a href="index.html">Portfolio</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="board.html">Board</a></li>
+                <li><a href="#" class="button primary">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="notice">
+        <div class="page-title">
+              <div class="container">
+                  <h3>자유게시판</h3>
+              </div>
+          </div>
+      
+          <!-- board seach area -->
+          <div id="board-search">
+              <div class="container">
+                  <div class="search-window">
+                      <form action="">
+                          <div class="search-wrap">
+                              <label for="search" class="blind">공지사항 내용 검색</label>
+                              <input id="search" style="background-color: transparent;" type="search" name="" placeholder="검색어를 입력해주세요." value="">
+                              <button type="submit" class="btn btn-dark">검색</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+        <!-- board list area -->
+            <div id="board-list">
+                <div class="container">
+                    <div id="board-align">
+                        <li>정렬 :&nbsp;</li> 
+                        <li>최신순 |&nbsp;</li>
+                        <li>댓글순 |&nbsp;</li>
+                        <li>내글보기</li>
+                     </div>
+                    <table class="board-table">
+                        <thead>
+                        <tr>
+                          <th scope="col" class="th-num">번호</th>
+                          <th scope="col" class="th-title">제목</th>
+                          <th scope="col" class="th-date">등록일</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                          <td>3</td>
+                          <th>
+                            <a href="#!">[공지사항] 게시물 작성 요령 안내</a>
+                            <p>테스트</p>
+                          </th>
+                          <td>2022.06.30</td>
+                        </tr>
+      
+                        <tr>
+                          <td>2</td>
+                          <th><a href="#!">[공지사항] Pheewhy 게시판 개장</a></th>
+                          <td>2022.06.30</td>
+                        </tr>
+      
+                        <tr>
+                          <td>1</td>
+                          <th><a href="#!">공지사항 안내입니다. 이용해주셔서 감사합니다</a></th>
+                          <td>2022.06.30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+    <button><a href="./writeboard.html">글쓰기</a></button>
+</body>
+<footer id="footer">
+    <ul class="icons">
+        <li><a href="https://www.instagram.com/phee_why/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="https://github.com/ph22why" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+    </ul>
+    <ul class="copyright">
+        <li>&copy; copyright with PheewhY</li>
+    </ul>
+</footer>
+</html>
